@@ -1,0 +1,143 @@
+.open-sans-normal {
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+/* share style */
+.dark-1 {
+	color: #181818;
+}
+.dark-2 {
+	color: #474747;
+}
+.dark-3 {
+	color: #757575;
+}
+.secondary-bg {
+	background-color: #fff8f3;
+}
+.text-primary {
+	color: #fd6e0a;
+}
+.btn-primary {
+	background-color: #fd6e0a;
+	color: #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 18px 35px;
+	border: none;
+}
+.text-center {
+	text-align: center;
+}
+/* header style */
+.header {
+	background-image: url("../images/developer.png"), url(../images/header_bg.png);
+	background-repeat: no-repeat;
+	background-position: top left, bottom right;
+}
+
+/* nav design */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 200px;
+}
+.nav-title {
+	font-weight: 800;
+	font-size: 45px;
+}
+nav ul li {
+	list-style: none;
+	font-size: 20px;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav li a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+/* banner design */
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 35px 0 200px;
+}
+.banner-content {
+	max-width: 580px;
+}
+.banner-greetings {
+	font-size: 45px;
+	font-weight: 600;
+}
+.banner-title {
+	font-size: 85px;
+	font-weight: bold;
+}
+.banner-content-pic {
+	width: 580px;
+}
+.banner-description {
+	font-size: 18px;
+	font-weight: 400;
+}
+/* main design */
+main {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+main section {
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+/* about design */
+.about {
+	border-radius: 10px;
+	padding: 130px 150px;
+	text-align: center;
+}
+.about-inner {
+	background-color: #ffffff;
+	padding: 0 10px;
+}
+.section-title {
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.section-description {
+	font-size: 18px;
+	font-weight: 400;
+}
+.about-items {
+	display: flex;
+	justify-content: space-around;
+	background-color: #ffffff;
+	margin-top: 20px;
+}
+.item-title {
+	font-size: 20px;
+	font-weight: 400;
+}
+.item-description {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+}
+/* skill design */
+.skill-container {
+	display: flex;
+	gap: 24px;
+}
+.skill {
+	padding: 30px;
+	box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+	border-radius: 5px;
+}
