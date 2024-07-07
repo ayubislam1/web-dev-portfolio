@@ -34,7 +34,8 @@
 }
 /* header style */
 .header {
-	background-image: url("../images/developer.png"), url(../images/header_bg.png);
+	background-image: url("../images/developer.png"),
+		url("../images/header_bg.png");
 	background-repeat: no-repeat;
 	background-position: top left, bottom right;
 }
@@ -76,10 +77,12 @@ nav li a {
 .banner-greetings {
 	font-size: 45px;
 	font-weight: 600;
+	margin-bottom: -60px;
 }
 .banner-title {
 	font-size: 85px;
 	font-weight: bold;
+	margin-bottom: -3px;
 }
 .banner-content-pic {
 	width: 580px;
@@ -87,6 +90,7 @@ nav li a {
 .banner-description {
 	font-size: 18px;
 	font-weight: 400;
+	margin-bottom: 20px;
 }
 /* main design */
 main {
@@ -140,4 +144,76 @@ main section {
 	padding: 30px;
 	box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 	border-radius: 5px;
+}
+.skill-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.skill-description {
+	font-size: 16px;
+	font-weight: 400;
+}
+/* resume design */
+.resume-container {
+	display: flex;
+	gap: 24px;
+}
+.experience-description {
+	color: #757575;
+	font-size: 16px;
+	font-weight: 400;
+}
+.resume-column-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #474747;
+}
+.experience-title {
+	font-size: 25px;
+	color: #474747;
+	font-weight: bold;
+}
+.experience-sub-title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #757575;
+	margin-bottom: 20px;
+}
+.resume > hr {
+	margin: 30px;
+}
+.resume-btn {
+	margin-top: 50px;
+}
+/* footer design */
+.footer {
+	display: flex;
+
+	padding: 130px 230px;
+	gap: 100px;
+}
+.footer-text {
+	font-size: 16px;
+	font-size: 400;
+}
+.footer-icon > a > img {
+	margin: 5px;
+}
+.footer-column {
+	width: 50%;
+}
+
+footer input[type="email"],
+footer input[type="text"],
+footer textarea {
+	height: 64px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	margin-bottom: 24px;
+	border: 2px solid #fd6e0a;
+	font-size: 16px;
+	font-weight: 400;
 }
